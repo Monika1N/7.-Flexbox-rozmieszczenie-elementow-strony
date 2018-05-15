@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+ }
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+div.container {
+	display: -webkit-flex;
+	display: flex;
+}
+ul {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+li {
+	list-style-type: none;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	background-color: #5ea596;
+}
+li:hover {
+	background-color: #14e2b6;
+}
+li > a {
+	text-decoration: none;
+	color: white;
+}
+.logo {
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	font-size: 35px;
+	font-weight: bold;
+}
+.jumbotron {
+	height: 100vh;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #a6c400;
+	font-size: 60px;
+	color: white;
+	text-transform: uppercase;
+}
+.gallery {
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.card {
+	min-width: 200px;
+	min-height: 150px;
+	background-color: black;
+	color: white;
+	font-size: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+}
+.cards {
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+footer {
+	background-color: #5ea596;
+}
+footer div.container {
+	display: -webkit-flex;
+	display: flex;
+	height: 100px;
+	justify-content: center;
+}
+.copyright, .company, .city {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: white;
+}
+.company {
+	flex-grow: 2;
+}
