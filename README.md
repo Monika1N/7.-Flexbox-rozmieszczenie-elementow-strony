@@ -1,2 +1,2 @@
-# Komponenty-na-bazie-Flexboxa
-https://monika1n.github.io/Komponenty-na-bazie-Flexboxa/
+# Flexbox - rozmieszczenie elementów strony
+https://monika1n.github.io/7.-Flexbox-rozmieszczenie-elementow-strony/
